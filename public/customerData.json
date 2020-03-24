@@ -1,0 +1,193 @@
+{
+    "customerData": [
+        {
+            "customerId": "ABZ",
+            "customerName": "Morgan Stanley Bank",
+            "netCash": "100000",
+            "unwindDate": "28-Oct-2019",
+            "onBoardStatus": "On Boarded"
+        },
+        {
+            "customerId": "0A0",
+            "customerName": "JP Morgan",
+            "netCash": "200000",
+            "unwindDate": "28-Dec-2019",
+            "onBoardStatus": "Delayed"
+        },
+        {
+            "customerId": "BE5",
+            "customerName": "Goldman Sacs",
+            "netCash": "300000",
+            "unwindDate": "22-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "CA2",
+            "customerName": "Citi Corp",
+            "netCash": "250000",
+            "unwindDate": "02-Nov-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "HBS",
+            "customerName": "HSBC Inc",
+            "netCash": "100000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "On Boarded"
+        },
+        {
+            "customerId": "6C9",
+            "customerName": "Backlays Bank",
+            "netCash": "100000",
+            "unwindDate": "28-Oct-2019",
+            "onBoardStatus": "On Boarded"
+        },
+        {
+            "customerId": "5UW",
+            "customerName": "DBS Bank",
+            "netCash": "200000",
+            "unwindDate": "28-Dec-2019",
+            "onBoardStatus": "Delayed"
+        },
+        {
+            "customerId": "MLJ",
+            "customerName": "UBS Bank",
+            "netCash": "300000",
+            "unwindDate": "22-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "QXR",
+            "customerName": "Mastercard INC",
+            "netCash": "250000",
+            "unwindDate": "02-Nov-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "7YU",
+            "customerName": "Deutsche Bank",
+            "netCash": "100000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "On Boarded"
+        },
+        {
+            "customerId": "Inx",
+            "customerName": "iNautix Technologies",
+            "netCash": "250000",
+            "unwindDate": "02-Nov-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "BNY",
+            "customerName": "BNY Mellon Technology",
+            "netCash": "100000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "On Boarded"
+        },
+        {
+            "customerId": "CV4",
+            "customerName": "China Development Bank",
+            "netCash": "700000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "BNP",
+            "customerName": "BNP Paribas SA",
+            "netCash": "300000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "JP7",
+            "customerName": "JAPAN POST BANK Co Ltd",
+            "netCash": "900000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "SCG",
+            "customerName": "Société Générale",
+            "netCash": "900000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "DBG",
+            "customerName": "Deutsche Bank AG",
+            "netCash": "900000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "CAN",
+            "customerName": "Royal Bank of Canada",
+            "netCash": "900000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "IND",
+            "customerName": "Industrial Bank Co Ltd",
+            "netCash": "900000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "ING",
+            "customerName": "ING Bank NV",
+            "netCash": "900000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "NOR",
+            "customerName": "The Norinchukin Bank",
+            "netCash": "900000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "CSA",
+            "customerName": "Credit Suisse AG",
+            "netCash": "900000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "BNO",
+            "customerName": "The Bank of Nova Scotia",
+            "netCash": "900000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "SCB",
+            "customerName": "Standard Chartered Bank",
+            "netCash": "900000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "WBC",
+            "customerName": "Westpac Banking Corporation",
+            "netCash": "900000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "MUF",
+            "customerName": "MUFG Bank Ltd.",
+            "netCash": "900000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        },
+        {
+            "customerId": "BPC",
+            "customerName": "BPCE Ltd.",
+            "netCash": "900000",
+            "unwindDate": "27-Oct-2019",
+            "onBoardStatus": "Transit"
+        }
+    ]
+}
