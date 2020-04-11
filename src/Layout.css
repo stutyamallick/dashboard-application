@@ -16,3 +16,15 @@
     border-top: 2px solid #181818;
     min-height: calc(100% - 6rem)
 }
+.routeLoadingMessage{
+    color: #61dafb; 
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: center;
+}
+.Error404Message{
+    color: #ce8349; 
+    font-size: 1.5rem;
+    font-weight: lighter;
+    text-align: center;
+}

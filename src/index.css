@@ -42,7 +42,22 @@ html, body {
 .flex-5{
     flex: 5;
 }
+/* Other Common Styles */
+.Vertical_Middle{
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 
+.Horizontal_Middle{
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
 
 /* Router Service Styles */
 
@@ -56,12 +71,7 @@ html, body {
     font-weight: normal;
     color: #dccd79;
 }
-.app-serviceTitle-underDev{
-    color: #9cdcda;
-}
-.app-serviceTitle-404{
-    color: #ce8349;
-}
+
 /* Services CSS */
 .searchCriteriaCt{
     padding-left: 1%;

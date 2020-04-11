@@ -9,7 +9,6 @@ const Home = React.lazy(() => import('./app-services/home/Home'))
 const Support = React.lazy(() => import('./app-services/support/Support'))
 const Maintenance = React.lazy(() => import('./app-services/maintenance/index'))
 const Report = React.lazy(() => import('./app-services/report/Report'))
-const PageNotFound = React.lazy(() => import('./ErrorPage'))
 
 export default class Layout extends React.Component {
     render() {
@@ -23,14 +22,18 @@ export default class Layout extends React.Component {
                         <NavigationPanel />
                     </div>
                     <div className="app_route_service_container">
-                        <React.Suspense fallback={<div>Loading...</div>}>
+                        <React.Suspense fallback={
+                            <div className="routeLoadingMessage">Loading...</div>
+                        }>
                             <Switch>
                                 <Route path='/home' component={Home} />
                                 <Route path='/support' component={Support} />
                                 <Route path='/maintenance' component={Maintenance} />
                                 <Route path='/report' component={Report} />
                                 <Redirect from="/" to="/home" />
-                                <Route component={PageNotFound} />
+                                <Route render={
+                                    <div className="Error404Message">Page Not Found.</div>
+                                } />
                             </Switch>
                         </React.Suspense>
                     </div>
