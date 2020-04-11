@@ -4,6 +4,12 @@ body{
     padding: 0px;
     border: 0px;
 }
+html, body {
+  height: 100%;
+}
+#root{
+    height: 100%;
+}
 /* CSS Flex Property Classes */
 .rowFlex{
     display: flex;
@@ -36,90 +42,10 @@ body{
 .flex-5{
     flex: 5;
 }
-/* Header CSS */
-.app-logoCt{
-    align-self: center;
-}
-.app-logo{
-    max-height: 5rem;
-    max-width: 5rem;
-}
-.app-header{
-    background-color: #333333;
-    min-height: 4rem;
-    top: 0%;
-}
-.app-title{
-    color: #61dafb;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 120%;
-}
-.app-titleCt{
-    text-align: center;
-    align-self: center;
-}
-.app-userDetCt{
-    margin-right: 3%;
-    align-self: center;
-}
-.app-userDetText{
-    color: #bdbdbd;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: normal;
-    font-size: 90%;
-}
-.app-userSignoutText{
-    color: #bdbdbd;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: normal;
-    font-size: 90%;
-}
-.app-userSignoutText:hover{
-    color: #61dafb;
-    cursor: pointer;
-}
-/* Navigation Panel CSS */
-.app-navigationPnlCt{
-    min-height: 2rem;
-    min-width: 100%;
-    background-color: #252526;
-    border-top: solid 0.5px #5e5e5e;
-}
-.navPnl-serviceCt{
-    min-width: 12.5%;
-    max-width: 25%;
-    min-height: 2rem;
-    text-align: center;
-    align-self: center;
-    color: #bdbdbd;
-    border-right: solid .5px #5e5e5e;
-}
-.navPnl-serviceCt:hover{
-    background-color: #333333;
-}
-.navPnl-serviceCt a{
-    color: #bdbdbd;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 90%;
-    cursor: pointer;
-    text-decoration: none;
-}
-.navPnl-serviceCt a:visited{
-    color: #bdbdbd;
-    text-decoration: none;
-}
-.navPnl-serviceCt a:hover{
-    color: #2a9f89;
-}
+
+
 /* Router Service Styles */
-.router-serviceCt{
-    background-color: #1e1e1e;
-    min-height: 32.0rem;
-    padding-top: 0px;
-    margin-top: 0px;
-    border-top: 2px solid #181818;
-}
+
 .app-serviceTitleCt{
     padding-top: 0.5rem;
     padding-left: 2rem;

@@ -1,0 +1,37 @@
+.navigation_panel_container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background-color: #252526;
+    border-top: solid 0.5px #5e5e5e;
+}
+
+.active_route_link{
+    color: #61dafb !important;
+    background-color: rgb(51, 51, 51);
+}
+
+.router_link_container{
+    border-right: solid .5px #5e5e5e;
+    padding: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 100%;
+}
+
+.navigation_panel_container a{
+    color: #bdbdbd;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+}
+
+.navigation_panel_container a:hover{
+    color: #61dafb;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9rem;
+    cursor: pointer;
+}

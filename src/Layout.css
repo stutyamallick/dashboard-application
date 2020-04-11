@@ -1,0 +1,18 @@
+.layout{
+    height: 100%;
+}
+.app_header_container{
+    background-color: #333333;
+    height: 4rem;
+    top: 0%;
+}
+.app_navigation_panel_container{
+    height: 2rem;
+}
+.app_route_service_container{
+    background-color: #1e1e1e;
+    padding-top: 0px;
+    margin-top: 0px;
+    border-top: 2px solid #181818;
+    min-height: calc(100% - 6rem)
+}

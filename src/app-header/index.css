@@ -1,0 +1,38 @@
+.app-logoCt{
+    align-self: center;
+}
+.app-logo{
+    max-height: 5rem;
+    max-width: 5rem;
+}
+
+.app-title{
+    color: #61dafb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+}
+.app-titleCt{
+    text-align: center;
+    align-self: center;
+}
+.app-userDetCt{
+    margin-right: 3%;
+    align-self: center;
+}
+.app-userDetText{
+    color: #bdbdbd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 90%;
+}
+.app-userSignoutText{
+    color: #bdbdbd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 90%;
+}
+.app-userSignoutText:hover{
+    color: #61dafb;
+    cursor: pointer;
+}
