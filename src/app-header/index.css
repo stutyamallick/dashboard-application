@@ -1,38 +1,54 @@
-.app-logoCt{
-    align-self: center;
+.app_logo_container{
+    position: absolute;
+    left: 0px;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.app-logo{
-    max-height: 5rem;
-    max-width: 5rem;
+.app_logo{
+    height: 4rem;
+    width: 4rem;
 }
 
-.app-title{
-    color: #61dafb;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 120%;
+.app_title_container{
+    position: absolute;
+    left: 0px;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.app-titleCt{
-    text-align: center;
+.app_title{
+    color: #61dafb;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 1.25rem;
+}
+
+.user_detail_container{
+    height: 4rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.user_detail_text{
+    color: #bdbdbd;
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.app_logout{
+    height: 0.8rem;
+    width: 0.8rem;
     align-self: center;
 }
-.app-userDetCt{
-    margin-right: 3%;
-    align-self: center;
-}
-.app-userDetText{
-    color: #bdbdbd;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: normal;
-    font-size: 0.8rem;
-}
-.app-userSignoutText{
-    color: #bdbdbd;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: normal;
-    font-size: 0.8rem;
-}
-.app-userSignoutText:hover{
-    color: #61dafb;
+.app_logout:hover{
     cursor: pointer;
 }
