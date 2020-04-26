@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import supportReducer from '../modules/support/redux/reducers';
+import supportReducer from '../store/support/reducers';
+import maintenanceReducer from '../store/maintenance/reducers';
 
 const rootReducer = combineReducers({
-    support: supportReducer
+    support: supportReducer,
+    maintenance: maintenanceReducer
 })
 
 const initialState = rootReducer({}, {});

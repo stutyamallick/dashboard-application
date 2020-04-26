@@ -1,9 +1,11 @@
 import React from 'react';
 import CustomerForm from './CustomerForm';
 import MaintenanceMain from './Maintenance';
-import { Route, Switch, NavLink } from 'react-router-dom';
+import { Route, Switch, NavLink, Redirect } from 'react-router-dom';
+import { connect } from 'react-redux';
+import * as actions from '../../store/maintenance/actions';
 
-export default class Maintenance extends React.Component {
+class Maintenance extends React.Component {
     render() {
         return (
             <React.Fragment>
@@ -20,9 +22,26 @@ export default class Maintenance extends React.Component {
                 </div>
                 <Switch>
                     <Route path='/maintenance/payment' component={MaintenanceMain} />
-                    <Route path='/maintenance/form' component={CustomerForm} />
+                    { this.props.formRoutePermission
+                        && <Route path='/maintenance/form' component={CustomerForm} />
+                    }
+                    <Redirect from="/maintenance/" to="/maintenance/payment" />
                 </Switch>
             </React.Fragment>
         )
     }
 }
+
+const mapStateToProps = state => {
+    return {
+        formRoutePermission: state.maintenance.formRoutePermission
+    }
+}
+
+const mapDispatchToProps = dispatch => {
+    return {
+        updateFormRoutePermission: (value) => dispatch(actions.updateFormRoutePermission(value))
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Maintenance);

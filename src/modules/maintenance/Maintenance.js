@@ -1,5 +1,7 @@
 import React from 'react';
 import './maintenance-styles.css';
+import { connect } from 'react-redux';
+import * as actions from '../../store/maintenance/actions';
 
 class MaintenanceMain extends React.Component {
     constructor(props) {
@@ -22,6 +24,7 @@ class MaintenanceMain extends React.Component {
     }
     componentDidMount() {
         this.setState({ amountPayable: this.state.comodityPrice });
+        this.props.updateFormRoutePermission(false);
     }
     onPaymentModeChange(e) {
         let paymentModeSelected = e.target.value;
@@ -45,6 +48,7 @@ class MaintenanceMain extends React.Component {
     }
     onPayBtnClick() {
         this.setState({ paymentDone: true })
+        this.props.updateFormRoutePermission(true);
         this.props.history.push('./form')
     }
     onStartOverClick() {
@@ -308,4 +312,17 @@ class CouponSelector extends React.Component{
         )
     }
 }
-export default MaintenanceMain;
+
+const mapStateToProps = state => {
+    return {
+        formRoutePermission: state.maintenance.formRoutePermission
+    }
+}
+
+const mapDispatchToProps = dispatch => {
+    return {
+        updateFormRoutePermission: (value) => dispatch(actions.updateFormRoutePermission(value))
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(MaintenanceMain);
