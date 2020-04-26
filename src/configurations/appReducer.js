@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux';
-import supportReducer from '../app-services/support/redux/reducers';
+import supportReducer from '../modules/support/redux/reducers';
 
 const rootReducer = combineReducers({
     support: supportReducer

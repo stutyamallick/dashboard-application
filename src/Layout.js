@@ -5,10 +5,10 @@ import Header from './app-header/index';
 import NavigationPanel from './components/navigation-panel/index';
 
 /* Lazy loading of React Router Components */
-const Home = React.lazy(() => import('./app-services/home/Home'))
-const Support = React.lazy(() => import('./app-services/support/Support'))
-const Maintenance = React.lazy(() => import('./app-services/maintenance/index'))
-const Report = React.lazy(() => import('./app-services/report/Report'))
+const Home = React.lazy(() => import('./modules/home/Home'))
+const Support = React.lazy(() => import('./modules/support/Support'))
+const Maintenance = React.lazy(() => import('./modules/maintenance/index'))
+const Report = React.lazy(() => import('./modules/report/Report'))
 
 export default class Layout extends React.Component {
     render() {
