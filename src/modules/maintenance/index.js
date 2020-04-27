@@ -1,6 +1,6 @@
 import React from 'react';
 import CustomerForm from './CustomerForm';
-import MaintenanceMain from './Maintenance';
+import Payment from './Payment';
 import { Route, Switch, NavLink, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import * as actions from '../../store/maintenance/actions';
@@ -21,7 +21,7 @@ class Maintenance extends React.Component {
                     </label>
                 </div>
                 <Switch>
-                    <Route path='/maintenance/payment' component={MaintenanceMain} />
+                    <Route path='/maintenance/payment' component={Payment} />
                     { this.props.formRoutePermission
                         && <Route path='/maintenance/form' component={CustomerForm} />
                     }

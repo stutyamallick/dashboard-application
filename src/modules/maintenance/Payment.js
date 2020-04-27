@@ -1,9 +1,9 @@
 import React from 'react';
-import './maintenance-styles.css';
+import './index.css';
 import { connect } from 'react-redux';
 import * as actions from '../../store/maintenance/actions';
 
-class MaintenanceMain extends React.Component {
+class Payment extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -325,4 +325,4 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(MaintenanceMain);
+export default connect(mapStateToProps, mapDispatchToProps)(Payment);
